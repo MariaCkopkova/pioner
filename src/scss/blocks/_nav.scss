@@ -1,0 +1,18 @@
+.nav {
+        &__list{
+                display: flex;
+                gap: remy(44); 
+                &--footer {
+                        display: block;
+                        columns: 2;
+                        min-width: remy(343);
+                }    
+        }
+        &__item {
+                &--footer {
+                        &:not(:last-child) {
+                                margin-bottom: remy(24);
+                        }
+                }
+        }
+}

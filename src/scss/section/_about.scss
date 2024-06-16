@@ -1,0 +1,19 @@
+.about {
+        color: var(--dark);
+        font-family: SourceSans3; 
+        &__text {
+                column-gap: remy(20);
+                row-gap: remy(24);
+                margin-bottom: remy(32);
+        }  
+        &__descr {
+                grid-column: 6 span;
+                font-size: remy(16);
+                font-weight: 400;
+                line-height: 1.4;
+                letter-spacing: 0;
+        }
+        &__img {
+                grid-column: 6 span;
+        }
+}

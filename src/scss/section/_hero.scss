@@ -1,0 +1,22 @@
+.hero{
+        &__top {
+                color: var(--dark);
+                font-family: SourceSans3;
+                 margin-bottom: remy(32);
+        }
+        &__title {
+                grid-column: 6 span;
+                font-size: remy(60);
+                font-weight: 700;
+                line-height: 1.2;
+                letter-spacing: 0;
+        }
+        &__descr {
+                grid-column: 4 span;
+                padding-top: remy(24);
+                font-size: remy(16);
+                font-weight: 400;
+                line-height: 1.2;
+                letter-spacing: 0;
+                }
+}

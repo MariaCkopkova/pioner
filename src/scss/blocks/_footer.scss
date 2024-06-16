@@ -1,0 +1,26 @@
+.footer {
+        padding-block: remy(58) remy(24);
+        background: var(--dark);
+        &__col {
+                grid-column: 6 span;
+                color: var(--light);
+                &:last-child {
+                        grid-column: 12 span;
+                        margin-top: remy(75);
+                }
+                &--flex {
+                        display: flex;
+                        gap: remy(60);
+                }
+        }
+        &__item {
+                &:not(:last-child) {
+                        margin-bottom: remy(24);
+                }
+        }
+        &__copyright {
+                display: block;
+                width: 100%;
+                text-align: center;
+        }
+}

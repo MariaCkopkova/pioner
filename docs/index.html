@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top"><a class="header__logo" href="#!">
+            <svg class="icon icon--logo">
+              <use xlink:href="./img/svgsprite/sprite.symbol.svg#logo"></use>
+            </svg></a>
+          <div class="header__contacts">
+            <div class="header__contact"><span class="header__caption">По вопросам и предложениям</span><a class="header__link" href="mailto:pionerrr@sila.ru">pionerrr@sila.ru</a></div>
+            <div class="header__contact"><span class="header__caption">Для консультаций</span><a class="header__link" href="tel:+74954562421">+7 (495) 456-24-21</a></div>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="#">Главная </a></li>
+              <li class="nav__item"><a class="nav__link" href="#">О предприятии</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Новости</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Продукция</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Услуги</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">Поддержка</a></li>
+              <li class="nav__item"><a class="nav__link" href="#">География поставок</a></li>
+              <li class="nav__item"><a class="nav__link" href="#"> </a></li>
+            </ul>
+          </nav>
+          <button class="header__btn"> 
+            <svg class="icon icon--phone">
+              <use xlink:href="./img/svgsprite/sprite.symbol.svg#phone"></use>
+            </svg>
+            <p>Пеpезвоните мне</p>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__top">
+            <h1 class="hero__title">Российский завод силовых машин</h1>
+            <p class="hero__descr">научно-производственное предприятие, занимающееся разработкой и производством силовых машин.</p>
+          </div>
+          <div class="hero__bottom">
+            <picture>
+              <source type="image/avif" srcset="./img/hero/hero.avif, ./img/hero/retina/hero.avif 2x"/>
+              <source type="image/webp" srcset="./img/hero/hero.webp, ./img/hero/retina/hero.webp 2x"/><img src="./img/hero/hero.jpeg" srcset="./img/hero/retina/hero.jpeg 2x" alt="Image"/>
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="footer">
+      <div class="container">
+        <p>Footer</p>
+      </div>
+    </div>
+    <script src="js/index.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+.header {
+        padding-top: remy(35);
+        &__caption {
+                font-size: remy(14);
+                font-weight: 400;
+                line-height: 1.2;
+                letter-spacing: 0;
+        }
+        &__link {
+                border-bottom: remy(1) solid currentColor;
+                color: var(--accent);
+                font-size: remy(20);
+                font-weight: 600;
+                line-height: 1;
+                letter-spacing: 0;
+
+        }
+        &__top {
+                padding-bottom: remy(36);
+                display: flex;
+                justify-content: space-between;
+                border-bottom: remy(1) solid var(--gray);
+        }
+        &__contacts {
+                display: flex;
+                gap: remy(45);
+        }
+        &__contact {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+        }
+}
+.header__bottom {
+        padding-top: remy(16);
+        display: flex;
+        align-items: center;
+        gap: remy(72);
+
+}
+.header__btn {
+        display: inline-flex;
+        align-items: center;
+        gap: remy(4);
+        text-transform: uppercase;
+}
